@@ -1,0 +1,34 @@
+
+Scenario: Entering BMI Details                  [90m# features/CalorieDetails.feature:7[0m
+  [32mGiven [0m[32mthe user in on the home page[0m            [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_launches_to_Calorie_home_Page()[0m
+  [32mWhen [0m[32muser clicks on BMI link[0m                  [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_clicks_on_the_BMI_link()[0m
+  [32mAnd [0m[32mthe user provides the age as [0m[32m[1m45[0m           [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_provides_the_age_as(java.lang.String)[0m
+  [32mAnd [0m[32mthe user provides the height as [0m[32m[1m5[0m         [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_provides_the_height_as(java.lang.String)[0m
+  [32mAnd [0m[32mthe user provides the weight as [0m[32m[1m70[0m        [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_provides_the_weight_as(java.lang.String)[0m
+  [32mAnd [0m[32mthe user selects the gender as "[0m[32m[1mmale[0m[32m"[0m     [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_selects_the_gender_as(java.lang.String)[0m
+  [32mAnd [0m[32mthe user performs BMI Calculation[0m         [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_performs_BMI_Calculation()[0m
+  [32mThen [0m[32mthe user should be given the BMI Value[0m   [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_should_be_given_the_BMI_Value()[0m
+  [32mAnd [0m[32mthe user should be given the BMI Category[0m [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_should_be_given_the_BMI_Category()[0m
+  [32mAnd [0m[32mthe user verifies the BMI Category[0m        [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_verifies_the_BMI_Category()[0m
+
+Scenario Outline: Enter BMI details with multiple sets of data [90m# features/CalorieDetails.feature:28[0m
+  [32mGiven [0m[32mthe user in on the home page[0m                           [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_launches_to_Calorie_home_Page()[0m
+  [32mWhen [0m[32muser clicks on BMI link[0m                                 [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_clicks_on_the_BMI_link()[0m
+  [32mAnd [0m[32mthe user provides the age as [0m[32m[1m45[0m                          [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_provides_the_age_as(java.lang.String)[0m
+  [32mAnd [0m[32mthe user provides the height as [0m[32m[1m5[0m                        [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_provides_the_height_as(java.lang.String)[0m
+  [32mAnd [0m[32mthe user provides the weight as [0m[32m[1m70[0m                       [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_provides_the_weight_as(java.lang.String)[0m
+  [32mAnd [0m[32mthe user selects the gender as "[0m[32m[1mfemale[0m[32m"[0m                  [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_selects_the_gender_as(java.lang.String)[0m
+  [32mAnd [0m[32mthe user performs BMI Calculation[0m                        [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_performs_BMI_Calculation()[0m
+  [32mThen [0m[32mthe user should be given the BMI Value[0m                  [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_should_be_given_the_BMI_Value()[0m
+  [32mAnd [0m[32mthe user should be given the BMI Category[0m                [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_should_be_given_the_BMI_Category()[0m
+  [32mAnd [0m[32mthe user verifies the BMI Category[0m                       [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_verifies_the_BMI_Category()[0m
+
+@fourArgs
+Scenario: Enter BMI details as Cucumber Datatable [90m# features/CalorieDetails.feature:31[0m
+  [32mGiven [0m[32mthe user in on the home page[0m              [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_launches_to_Calorie_home_Page()[0m
+  [32mWhen [0m[32muser clicks on BMI link[0m                    [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_clicks_on_the_BMI_link()[0m
+  [32mAnd [0m[32mthe user provides the following details[0m     [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_provides_the_following_details(io.cucumber.datatable.DataTable)[0m
+  [32mAnd [0m[32mthe user performs BMI Calculation[0m           [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_performs_BMI_Calculation()[0m
+  [32mThen [0m[32mthe user should be given the BMI Value[0m     [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_should_be_given_the_BMI_Value()[0m
+  [32mAnd [0m[32mthe user should be given the BMI Category[0m   [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_should_be_given_the_BMI_Category()[0m
+  [32mAnd [0m[32mthe user verifies the BMI Category[0m          [90m# stepDefinitions.calorieDetailsStepDefinition.the_user_verifies_the_BMI_Category()[0m

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.53">
+<testcase classname="Calorie Calculator" name="Entering BMI Details" time="0.058">
+<system-out><![CDATA[Given the user in on the home page..........................................passed
+When user clicks on BMI link................................................passed
+And the user provides the age as 45.........................................passed
+And the user provides the height as 5.......................................passed
+And the user provides the weight as 70......................................passed
+And the user selects the gender as "male"...................................passed
+And the user performs BMI Calculation.......................................passed
+Then the user should be given the BMI Value.................................passed
+And the user should be given the BMI Category...............................passed
+And the user verifies the BMI Category......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Calorie Calculator" name="Enter BMI details with multiple sets of data" time="0.015">
+<system-out><![CDATA[Given the user in on the home page..........................................passed
+When user clicks on BMI link................................................passed
+And the user provides the age as 45.........................................passed
+And the user provides the height as 5.......................................passed
+And the user provides the weight as 70......................................passed
+And the user selects the gender as "female".................................passed
+And the user performs BMI Calculation.......................................passed
+Then the user should be given the BMI Value.................................passed
+And the user should be given the BMI Category...............................passed
+And the user verifies the BMI Category......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Calorie Calculator" name="Enter BMI details as Cucumber Datatable" time="0.011">
+<system-out><![CDATA[Given the user in on the home page..........................................passed
+When user clicks on BMI link................................................passed
+And the user provides the following details.................................passed
+And the user performs BMI Calculation.......................................passed
+Then the user should be given the BMI Value.................................passed
+And the user should be given the BMI Category...............................passed
+And the user verifies the BMI Category......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

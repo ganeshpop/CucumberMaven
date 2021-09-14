@@ -1,0 +1,273 @@
+[
+  {
+    "source": "^the user in on the home page$",
+    "steps": [
+      {
+        "name": "the user in on the home page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 3.33333E-4
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:4"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on BMI link$",
+    "steps": [
+      {
+        "name": "user clicks on BMI link",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 3.33333E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:5"
+          },
+          {
+            "duration": 0.001,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:5"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user provides the age as ([^\"]*)$",
+    "steps": [
+      {
+        "name": "the user provides the age as 45",
+        "aggregatedDurations": {
+          "median": 0.0015,
+          "average": 0.0015
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:8"
+          },
+          {
+            "duration": 0.002,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user provides the height as ([^\"]*)$",
+    "steps": [
+      {
+        "name": "the user provides the height as 5",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.001,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:9"
+          },
+          {
+            "duration": 0.001,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user provides the weight as ([^\"]*)$",
+    "steps": [
+      {
+        "name": "the user provides the weight as 70",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:10"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user selects the gender as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "the user selects the gender as \"male\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:11"
+          }
+        ]
+      },
+      {
+        "name": "the user selects the gender as \"female\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user performs BMI Calculation$",
+    "steps": [
+      {
+        "name": "the user performs BMI Calculation",
+        "aggregatedDurations": {
+          "median": 0.001,
+          "average": 0.001
+        },
+        "durations": [
+          {
+            "duration": 0.002,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:12"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:22"
+          },
+          {
+            "duration": 0.001,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user should be given the BMI Value$",
+    "steps": [
+      {
+        "name": "the user should be given the BMI Value",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:13"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:23"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user should be given the BMI Category$",
+    "steps": [
+      {
+        "name": "the user should be given the BMI Category",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 3.33333E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:14"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:24"
+          },
+          {
+            "duration": 0.001,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user verifies the BMI Category$",
+    "steps": [
+      {
+        "name": "the user verifies the BMI Category",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:15"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:25"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "the user provides the following details",
+    "steps": [
+      {
+        "name": "the user provides the following details",
+        "aggregatedDurations": {
+          "median": 0.005,
+          "average": 0.005
+        },
+        "durations": [
+          {
+            "duration": 0.005,
+            "location": "file:///D:/Studies/Wiley/LastWeek/CucumberMaven/features/CalorieDetails.feature:32"
+          }
+        ]
+      }
+    ]
+  }
+]
